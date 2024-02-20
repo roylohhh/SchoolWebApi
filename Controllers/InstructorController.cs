@@ -29,7 +29,7 @@ public class InstructorController : ControllerBase
         return _repo.GetInstructor(InstructorID);
     }
 
-    //POST: api/instructos
+    //POST: api/instructors
     [HttpPost]
     public void PostInstructor([FromBody] Instructor instructor)
     {

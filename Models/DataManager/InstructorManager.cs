@@ -11,18 +11,19 @@ public class InstructorManager
         _context = context;
     }
 
-    //Read
+    //Get instructor
     public Instructor GetInstructor(string InstructorID)
     {
         return _context.Instructors.Find(InstructorID);
     }
 
+    //Get all instructors
     public IEnumerable<Instructor> GetAllInstructors()
     {
         return _context.Instructors.ToList();
     }
 
-    //Create
+    //Add instructor
     public string AddInstructor(Instructor instructor)
     {
         _context.Instructors.Add(instructor);
@@ -31,7 +32,7 @@ public class InstructorManager
         return instructor.InstructorID;
     }
 
-    //Remove
+    //Delete instructor
     public string DeleteInstructor(string InstructorID)
     {
         _context.Instructors.Remove(_context.Instructors.Find(InstructorID));
@@ -40,7 +41,7 @@ public class InstructorManager
         return InstructorID;
     }
 
-    //Update
+    //Update Instructor detais
     public string UpdateInstructor(string InstructorID, Instructor instructor)
     {
         _context.Update(instructor);

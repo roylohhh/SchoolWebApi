@@ -9,6 +9,7 @@ builder.Services.AddDbContext<SchoolContext>(options =>
 
 builder.Services.AddScoped<InstructorManager>();
 //builder.Services.AddTransient<InstructorManager>
+builder.Services.AddScoped<CourseManager>();
 
 builder.Services.AddControllers();
 
