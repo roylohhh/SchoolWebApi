@@ -24,9 +24,9 @@ public class InstructorController : ControllerBase
 
     //GET: api/instructors/1
     [HttpGet("{InstructorID}")]
-    public Instructor GetInstructors(string id)
+    public Instructor GetInstructors(string InstructorID)
     {
-        return _repo.GetInstructor(id);
+        return _repo.GetInstructor(InstructorID);
     }
 
     //POST: api/instructos
@@ -36,8 +36,8 @@ public class InstructorController : ControllerBase
         _repo.AddInstructor(instructor);
     }
 
-    //DELETE: api/instructors
-    [HttpDelete]
+    //DELETE: api/instructors/1
+    [HttpDelete("{InstructorID}")]
     public string DeleteInstructor(string InstructorID)
     {
         return _repo.DeleteInstructor(InstructorID);
