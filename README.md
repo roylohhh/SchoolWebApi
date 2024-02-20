@@ -1,4 +1,4 @@
-<img width="1440" alt="Screen Shot 2024-02-20 at 6 00 33 pm" src="https://github.com/roylohhh/SchoolWebApi/assets/101264393/e140cb19-539b-47b1-9467-5aedff23f8c2">As this is a backend focused project, there will be no front end, and Postman was used to test API endpoints.
+As this is a backend focused project, there will be no front end, and Postman was used to test API endpoints.
 I was provided with a data model diagram and a few sample questions to practice for a test (which covers mostly ASP.NET Core MVC). 
 I decided to create an ASP.NET Core Web Api project with one of the sample questions. 
 
