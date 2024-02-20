@@ -46,12 +46,11 @@ API endpoints tested using Postman:
 
 <img width="1440" alt="Screen Shot 2024-02-20 at 6 00 33 pm" src="https://github.com/roylohhh/SchoolWebApi/assets/101264393/a04177b1-a811-48fc-8a78-a2dd32fcb1ed">
 
+<img width="1440" alt="Screen Shot 2024-02-20 at 6 00 39 pm" src="https://github.com/roylohhh/SchoolWebApi/assets/101264393/295f9297-2d23-44c1-a1b2-9f11ac38c9d1">
+
 Just a screenshot displaying server side validation from data annotations in our models:
 
 <img width="1440" alt="Screen Shot 2024-02-20 at 6 00 18 pm" src="https://github.com/roylohhh/SchoolWebApi/assets/101264393/3d1739bf-d87c-4bad-9ad3-9a2cba083abd">
-
-
-<img width="1440" alt="Screen Shot 2024-02-20 at 6 00 39 pm" src="https://github.com/roylohhh/SchoolWebApi/assets/101264393/295f9297-2d23-44c1-a1b2-9f11ac38c9d1">
 
 [HttpPut] Updates the details of an existing instructor in the database
 
