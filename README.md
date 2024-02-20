@@ -35,7 +35,7 @@ In InstructorController, InstructorManager is injected via constructor injection
 The InstructorManager acts as a repository for the Instructor entity, abstracting the data access logic into a distinct layer. This allows business logic to interact with the data source through a simplified interface.
 CRUD operations are encapsulated within the InstructorManager, which hides the complexity of the underlying data access mechanism using Entity Framework Core.
 
-API endpoints tested using Postman:
+**API endpoints tested using Postman:**
 
 [HttpGet] Gets all instructors 
 
