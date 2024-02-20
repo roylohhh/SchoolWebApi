@@ -18,6 +18,9 @@ Sample question:
 
 <img width="539" alt="Screen Shot 2024-02-21 at 1 22 30 am" src="https://github.com/roylohhh/SchoolWebApi/assets/101264393/197b5302-091b-4b81-856a-584fcced9379">
 
+_Note: my explanations and documentation below will cover the instructor entity for a simplified explanation. 
+I have created CRUD operations for both Instructor and Courses.__
+
 I used lucidchart to create a simple visual diagram of my code design:
 
 <img width="452" alt="Screen Shot 2024-02-21 at 2 09 00 am" src="https://github.com/roylohhh/SchoolWebApi/assets/101264393/1f34f63a-8fae-440f-99e8-39e12fa79792">
